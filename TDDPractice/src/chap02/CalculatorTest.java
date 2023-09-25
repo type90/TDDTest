@@ -11,5 +11,6 @@ public class CalculatorTest {
 	void plus(){
 		int result = Calculcator.plus(1,2);
 		assertEquals(3,result);  //assertEquals(a,b) 함수는 a와 b가 같은지 검증함
+		assertEquals(5,Calculcator.plus(4, 1));
 	}
 }
